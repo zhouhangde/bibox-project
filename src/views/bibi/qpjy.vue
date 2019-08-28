@@ -1,20 +1,18 @@
 <template>
-  <div class="xmgs">
-    xmgs
+  <div class="qpjy">
+    qpjy
   </div>
 </template>
 
 <script>
 // import FilterView from "../components/FilterView";
 export default {
-  name: "xmgs",
+  name: "qpjy",
   data() {
     return {
     };
   },
   computed: {
-    address() {
-    }
   },
   created() {
     this.getData();
@@ -30,9 +28,9 @@ export default {
 
 <style scoped>
 
-.xmgs {
+.qpjy {
   width: 100%;
-  height: 100%;
+  height: 800px;
   overflow: auto;
   box-sizing: border-box;
 }

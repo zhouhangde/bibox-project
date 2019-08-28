@@ -1,26 +1,25 @@
 <template>
-  <div class="hyyi">
-    hyyi
+  <div class="dex">
+    dex
   </div>
 </template>
 
 <script>
 // import FilterView from "../components/FilterView";
 export default {
-  name: "hyyi",
+  name: "dex",
   data() {
     return {
     };
   },
   computed: {
-    address() {
-    }
   },
   created() {
     this.getData();
   },
   methods: {
     getData() {
+
     }
   },
   components: {
@@ -30,9 +29,9 @@ export default {
 
 <style scoped>
 
-.hyyi {
+.dex {
   width: 100%;
-  height: 100%;
+  height: 800px;
   overflow: auto;
   box-sizing: border-box;
 }

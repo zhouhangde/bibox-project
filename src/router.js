@@ -18,50 +18,118 @@ const router = new Router({
           path: '',
           redirect: '/home'   //表示默认首页跳转的地址，重定向到/home
         },
+        // 首页
         {
           path: '/home',
           name: 'home',
-          component: () => import('./views/Home.vue')    //此为按需引入的方式
+          component: () => import('./views/Home.vue')    
         },
+
+        // 标签下的7个下拉开始
+        // staking
         {
-          path: '/bibi',
-          name: 'bibi',
-          component: () => import('./views/bibi.vue')    //此为按需引入的方式
+          path: '/staking',
+          name: 'staking',
+          component: () => import('./views/tubiao/staking.vue')    
         },
+        // Lab
+        {
+          path: '/lab',
+          name: 'lab',
+          component: () => import('./views/tubiao/lab.vue')    
+        },
+        // Dex
+        {
+          path: '/dex',
+          name: 'dex',
+          component: () => import('./views/tubiao/dex.vue')    
+        },
+        // 上币申请
+        {
+          path: '/sbsq',
+          name: 'sbsq',
+          component: () => import('./views/tubiao/sbsq.vue')    
+        },
+        // BIX应用介绍
+        {
+          path: '/bixyyjs',
+          name: 'bixyyjs',
+          component: () => import('./views/tubiao/bixyyjs.vue')    
+        },
+        // 信用卡一键买卡
+        {
+          path: '/xykmk',
+          name: 'xykmk',
+          component: () => import('./views/tubiao/xykmk.vue')    
+        },
+        // 新手福利
+        {
+          path: '/xsfl',
+          name: 'xsfl',
+          component: () => import('./views/tubiao/xsfl.vue')    
+        },
+        // 图标下的7个下拉结束
+
+        // 币币下的下拉图标
+        // 标准交易
+        {
+          path: '/bzjy',
+          name: 'bzjy',
+          component: () => import('./views/bibi/bzjy.vue')    
+        }, 
+        // 全屏交易
+        {
+          path: '/qpjy',
+          name: 'qpjy',
+          component: () => import('./views/bibi/qpjy.vue')    
+        }, 
+        // 币币下的下拉图标结束
+
+        // 杠杆
+        {
+          path: '/gangai',
+          name: 'gangai',
+          component: () => import('./views/gangai.vue')    
+        },
+        // 合约交易
+        {
+          path: '/hy',
+          name: 'hy',
+          component: () => import('./views/hy.vue')    
+        },
+        // 法币交易
         {
           path: '/fabi',
           name: 'fabi',
-          component: () => import('./views/fabi.vue')    //此为按需引入的方式
+          component: () => import('./views/fabi.vue')    
         },
+
+        // bibox合伙人的下拉
+        // 核心计划
         {
-          path: '/hyyi',
-          name: 'hyyi',
-          component: () => import('./views/hyyi.vue')    //此为按需引入的方式
+          path: '/biboxhxjh',
+          name: 'biboxhxjh',
+          component: () => import('./views/biboxhhr/biboxhxjh.vue')    
         },
+        // 城市合伙人
         {
-          path: '/xmgs',
-          name: 'xmgs',
-          component: () => import('./views/xmgs.vue')    //此为按需引入的方式
+          path: '/cshhr',
+          name: 'cshhr',
+          component: () => import('./views/biboxhhr/cshhr.vue')    
         },
+        // bibox合伙人的下拉结束
+
+        // 恒星计划
         {
-          path: '/pack',
-          name: 'pack',
-          component: () => import('./views/pack.vue')    //此为按需引入的方式
+          path: '/hxjh',
+          name: 'hxjh',
+          component: () => import('./views/hxjh.vue')    
         },
+        // 委托管理
         {
-          path: '/cbb',
-          name: 'cbb',
-          component: () => import('./views/cbb.vue')    //此为按需引入的方式
-        },
-        {
-          path: '/tpss',
-          name: 'tpss',
-          component: () => import('./views/tpss.vue')    //此为按需引入的方式
-        },
-        {
-          path: '/sgrfl',
-          name: 'sgrfl',
-          component: () => import('./views/sgrfl.vue')    //此为按需引入的方式
+          path: '/wtgl',
+          name: 'wtgl',
+          component: () => import('./views/wtgl.vue')    
         }
       ]
     }

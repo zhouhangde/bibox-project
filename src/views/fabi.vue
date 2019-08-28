@@ -32,7 +32,7 @@ export default {
 
 .fabi {
   width: 100%;
-  height: 100%;
+  height: 800px;
   overflow: auto;
   box-sizing: border-box;
 }

@@ -1,13 +1,13 @@
 <template>
-  <div class="demo">
-    demo
+  <div class="gangai">
+    gangai
   </div>
 </template>
 
 <script>
 // import FilterView from "../components/FilterView";
 export default {
-  name: "demo",
+  name: "gangai",
   data() {
     return {
     };
@@ -28,8 +28,9 @@ export default {
 
 <style scoped>
 
-.demo {
+.gangai {
   width: 100%;
+  height: 800px;
   overflow: auto;
   box-sizing: border-box;
 }

@@ -1,26 +1,25 @@
 <template>
-  <div class="tpss">
-    tpss
+  <div class="lab">
+    lab
   </div>
 </template>
 
 <script>
 // import FilterView from "../components/FilterView";
 export default {
-  name: "tpss",
+  name: "lab",
   data() {
     return {
     };
   },
   computed: {
-    address() {
-    }
   },
   created() {
     this.getData();
   },
   methods: {
     getData() {
+
     }
   },
   components: {
@@ -30,9 +29,9 @@ export default {
 
 <style scoped>
 
-.tpss {
+.lab {
   width: 100%;
-  height: 100%;
+  height: 800px;
   overflow: auto;
   box-sizing: border-box;
 }

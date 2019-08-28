@@ -1,18 +1,20 @@
 <template>
-  <div class="demo">
-    demo
+  <div class="hyyi">
+    hyyi
   </div>
 </template>
 
 <script>
 // import FilterView from "../components/FilterView";
 export default {
-  name: "demo",
+  name: "hyyi",
   data() {
     return {
     };
   },
   computed: {
+    address() {
+    }
   },
   created() {
     this.getData();
@@ -28,8 +30,9 @@ export default {
 
 <style scoped>
 
-.demo {
+.hyyi {
   width: 100%;
+  height: 800px;
   overflow: auto;
   box-sizing: border-box;
 }

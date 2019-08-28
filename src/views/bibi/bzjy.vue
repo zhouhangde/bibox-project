@@ -1,20 +1,18 @@
 <template>
-  <div class="cbb">
-    cbb
+  <div class="bzjy">
+    bzjy
   </div>
 </template>
 
 <script>
 // import FilterView from "../components/FilterView";
 export default {
-  name: "cbb",
+  name: "bzjy",
   data() {
     return {
     };
   },
   computed: {
-    address() {
-    }
   },
   created() {
     this.getData();
@@ -30,9 +28,9 @@ export default {
 
 <style scoped>
 
-.cbb {
+.bzjy {
   width: 100%;
-  height: 100%;
+  height: 800px;
   overflow: auto;
   box-sizing: border-box;
 }

@@ -3,6 +3,14 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 import axios from 'axios';
+
+// 解决vue路由重复push一个路由控制台报错
+import Router from 'vue-router'
+const originalPush = Router.prototype.push
+Router.prototype.push = function push(location) {
+  return originalPush.call(this, location).catch(err => err)
+}
+
 // qs用于处理post请求失败的问题
 import qs from 'qs';
 

@@ -3,11 +3,13 @@
      <TabBar/>
     <!-- keep-alive用于将全局的路由进行数据缓存 -->
      <router-view></router-view>
+     <Footer/>
   </div>
 </template>
 
 <script>
 import TabBar from "../components/TabBar";
+import Footer from "../components/Footer";
 export default {
   name: "index",
   data() {
@@ -27,7 +29,8 @@ export default {
     };
   },
   components: {
-     TabBar
+     TabBar,
+     Footer
   }
 };
 </script>

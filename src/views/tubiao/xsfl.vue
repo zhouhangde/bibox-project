@@ -1,13 +1,13 @@
 <template>
-  <div class="demo">
-    demo
+  <div class="xsfl">
+    xsfl
   </div>
 </template>
 
 <script>
 // import FilterView from "../components/FilterView";
 export default {
-  name: "demo",
+  name: "xsfl",
   data() {
     return {
     };
@@ -19,6 +19,7 @@ export default {
   },
   methods: {
     getData() {
+
     }
   },
   components: {
@@ -28,8 +29,9 @@ export default {
 
 <style scoped>
 
-.demo {
+.xsfl {
   width: 100%;
+  height: 800px;
   overflow: auto;
   box-sizing: border-box;
 }

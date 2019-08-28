@@ -1,26 +1,25 @@
 <template>
-  <div class="pack">
-    pack
+  <div class="staking">
+    staking
   </div>
 </template>
 
 <script>
 // import FilterView from "../components/FilterView";
 export default {
-  name: "pack",
+  name: "staking",
   data() {
     return {
     };
   },
   computed: {
-    address() {
-    }
   },
   created() {
     this.getData();
   },
   methods: {
     getData() {
+
     }
   },
   components: {
@@ -30,9 +29,9 @@ export default {
 
 <style scoped>
 
-.pack {
+.staking {
   width: 100%;
-  height: 100%;
+  height: 800px;
   overflow: auto;
   box-sizing: border-box;
 }

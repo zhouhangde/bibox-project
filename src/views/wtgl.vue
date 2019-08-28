@@ -1,13 +1,13 @@
 <template>
-  <div class="demo">
-    demo
+  <div class="wtgl">
+    wtgl
   </div>
 </template>
 
 <script>
 // import FilterView from "../components/FilterView";
 export default {
-  name: "demo",
+  name: "wtgl",
   data() {
     return {
     };
@@ -27,9 +27,10 @@ export default {
 </script>
 
 <style scoped>
-
-.demo {
+/* 委托管理 */
+.wtgl {
   width: 100%;
+  height: 800px;
   overflow: auto;
   box-sizing: border-box;
 }

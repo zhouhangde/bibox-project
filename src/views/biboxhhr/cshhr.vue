@@ -1,20 +1,18 @@
 <template>
-  <div class="sgrfl">
-    sgrfl
+  <div class="cshhr">
+    cshhr
   </div>
 </template>
 
 <script>
 // import FilterView from "../components/FilterView";
 export default {
-  name: "sgrfl",
+  name: "cshhr",
   data() {
     return {
     };
   },
   computed: {
-    address() {
-    }
   },
   created() {
     this.getData();
@@ -30,9 +28,9 @@ export default {
 
 <style scoped>
 
-.sgrfl {
+.cshhr {
   width: 100%;
-  height: 100%;
+  height: 800px;
   overflow: auto;
   box-sizing: border-box;
 }
