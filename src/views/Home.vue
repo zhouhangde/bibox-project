@@ -191,8 +191,6 @@
           <span>前往</span>
           <span>向右箭头</span>
         </div>
-  
-
       </div>
 
 
@@ -521,7 +519,6 @@ export default {
 .biTable{
   width:100%
 }
-
 
 .biTable th{
    padding: 5px 10px;
