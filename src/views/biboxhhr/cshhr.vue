@@ -102,7 +102,7 @@
 					  </li>
 				  </ul>
 				  <ul class="reward_subtitle">
-					  <li class="reward_subitem pd-lr16" v-for="(item,id) in rewardList" :key="item.id">
+					  <li class="reward_subitem pd-lr16" v-for="(item,index) in rewardList" :key="index">
 						  <span class="bor_right">
 							  <img :src="item.img" alt="">
 							  <a href="#">{{item.he}}</a>
