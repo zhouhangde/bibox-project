@@ -97,11 +97,11 @@
         </a>
 
         <!-- Bibox合伙人 -->
-        <a class="xiala tab-item" @click="showHhr = !showHhr;currentActive = 'biboxhxjh|cshhr'" :class="('biboxhxjh|cshhr'.indexOf(currentActive) != -1)?'showRed':''">
+        <a class="xiala tab-item" @click="showHhr = !showHhr;currentActive = 'biboxhzxjh|cshhr'" :class="('biboxhzxjh|cshhr'.indexOf(currentActive) != -1)?'showRed':''">
             <div class="tab-item-label">Bibox合伙人</div>
             <ul class="showHhr" v-if="showHhr">
              <li>
-               <P @click="$router.push({name:'biboxhxjh'})">盒芯计划</P>
+               <P @click="$router.push({name:'biboxhzxjh'})">盒芯计划</P>
                <P @click="$router.push({name:'cshhr'})">城市合伙人</P>
              </li>
            </ul>

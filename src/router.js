@@ -116,9 +116,9 @@ const router = new Router({
         // bibox合伙人的下拉
         // 核心计划
         {
-          path: '/biboxhxjh',
-          name: 'biboxhxjh',
-          component: () => import('./views/biboxhhr/biboxhxjh.vue')    
+          path: '/biboxhzxjh',
+          name: 'biboxhzxjh',
+          component: () => import('./views/biboxhhr/biboxhzxjh.vue')    
         },
         // 城市合伙人
         {
