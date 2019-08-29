@@ -1,77 +1,59 @@
 <template>
-  <div class="BibiTop">
 
-        <!-- 第一大行 -->
-        <div>
+        <div class="GgjyTop">
             <ul style="display: flex;justify-content: space-between;padding: 20px 0;align-items: center;" class="bzjy_header">
               <li>
                 <p>
                   <span>图标</span>
-                  <span>BTC/USDT</span>
-                  <span>下拉</span>
-                </p>
-                <p>
-                  Bitcoin
+                  <span style="margin-left:3px">BTC/USDT</span>
+                  <span style="margin-left:3px">下拉</span>
                 </p>
               </li>
               <li>
                 <p>
                   <span>10,144.8800</span>
-                  <span>¥72,610.72</span>
-                </p>
-                <p>
-                  最新成交价
+                  <span style="margin-left:3px">¥72,610.72</span>
                 </p>
               </li>
               <li>
                 <p>
                   <span>-63.8900</span>
-                  <span>-0.62%</span>
-                </p>
-                <p>
-                  24小时涨跌幅
+                  <span style="margin-left:3px">-0.62%</span>
                 </p>
               </li>
               <li>
                 <p>
-                  <span>10,236.7740</span>
-                  <span>¥73,268.44</span>
-                </p>
-                <p>
-                  24小时最高
+                  <span>24小时最高</span>
+                  <span style="margin-left:3px">¥73,268.44</span>
                 </p>
               </li>
               <li>
                 <p>
-                  <span>10,050.0000</span>
-                  <span>¥71,931.63</span>
-                </p>
-                <p>
-                  24小时最低
+                  <span>24小时最低</span>
+                  <span style="margin-left:3px">¥71,931.63</span>
                 </p>
               </li>
               <li>
                 <p>
-                  <span>10,313</span>
-                  <span>BTC</span>
-                </p>
-                <p>
-                  24小时成交量
+                  <span>24小时成交量</span>
+                  <span style="margin-left:3px">BTC</span>
                 </p>
               </li>
               <li>
-                下雨图标
+                <p>
+                  <span>币种介绍</span>
+                  <span style="margin-left:3px">下雨图标</span>
+                </p>
               </li>
             </ul>
-        </div>  
+        </div> 
 
-  </div>
 </template>
 
 <script>
 // import FilterView from "../components/FilterView";
 export default {
-  name: "BibiTop",
+  name: "GgjyTop",
   data() {
     return {
     };
@@ -92,8 +74,7 @@ export default {
 
 <style scoped>
 
-.BibiTop {
-  width: 100%;
+.GgjyTop {
   overflow: auto;
   box-sizing: border-box;
 }

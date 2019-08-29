@@ -1,10 +1,9 @@
 <template>
-  <div class="BibBottom">
 
     <!-- 第三大行（包含当前委托，计划委托，冰山委托，历史委托） -->  
     <div>
           <!-- 第一小行 -->
-          <div style="display: flex;justify-content: space-between;padding: 25px 10px 3px;">
+          <div style="display: flex;justify-content: space-between;padding: 25px 10px 3px;" class="BibBottom">
              <div style="width: 462px;justify-content: space-between;display: flex;">
                <span style="padding: 5px;color: #3b85f5;font-weight: 600;border-bottom: 2px solid #3b85f5;">当前委托</span>
                <span style="padding: 5px;">计划委托</span>
@@ -47,7 +46,6 @@
              </table>
         </div>
 
-  </div>
 </template>
 
 <script>
@@ -75,7 +73,6 @@ export default {
 <style scoped>
 
 .BibBottom {
-  width: 100%;
   overflow: auto;
   box-sizing: border-box;
 }

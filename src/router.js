@@ -85,12 +85,21 @@ const router = new Router({
         }, 
         // 币币下的下拉图标结束
 
-        // 杠杆
+        // 杠杆下的下拉
+        // 杠杆交易
         {
-          path: '/gangai',
-          name: 'gangai',
-          component: () => import('./views/gangai.vue')    
+          path: '/ggjy',
+          name: 'ggjy',
+          component: () => import('./views/gangai/ggjy.vue')    
         },
+        // 借款放款
+        {
+          path: '/jkfk',
+          name: 'jkfk',
+          component: () => import('./views/gangai/jkfk.vue')    
+        },
+        // 杠杆下的下拉结束
+
         // 合约交易
         {
           path: '/hy',

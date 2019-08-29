@@ -17,11 +17,11 @@
 
 <script>
 // 第一大行
-import BibiTop from "../../components/bibi/BibiTop";
+import BibiTop from "../../components/bibi/bzjy/BzjyTop";
 // 第二大行
-import BibContent from "../../components/bibi/BibContent";
+import BibContent from "../../components/bibi/bzjy/BzjyContent";
 // 第三大行
-import BibBottom from "../../components/bibi/BibBottom";
+import BibBottom from "../../components/bibi/bzjy/BzjyBottom";
 
 
 export default {

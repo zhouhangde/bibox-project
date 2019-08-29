@@ -1,10 +1,9 @@
 <template>
-  <div class="BibContent">
 
     <!-- 第二大行(内部包含3个块)   --> 
     <div style="display:flex">
           <!-- 左侧的块 -->
-          <div style="flex-basis: 280px;border-radius: 4px;background-color: #212733;border: 1px solid #212733;">
+          <div style="flex-basis: 280px;border-radius: 4px;background-color: #212733;border: 1px solid #212733;" class="BibContent">
              <!-- 左侧第一行 -->
              <div style="display: flex;padding: 10px;justify-content: space-between;background-color: #2d3442;">
                <!-- 三个tab切换 -->
@@ -324,6 +323,7 @@
 
               </div>
             </div>
+            
           </div>
 
           <!-- 右边的块 -->
@@ -510,7 +510,6 @@
           </div>
         </div>
 
-  </div>
 </template>
 
 <script>
@@ -541,7 +540,6 @@ export default {
 <style scoped>
 
 .BibContent {
-  width: 100%;
   overflow: auto;
   box-sizing: border-box;
 }
