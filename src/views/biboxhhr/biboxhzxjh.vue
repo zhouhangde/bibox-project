@@ -56,7 +56,7 @@
 							<span>
 								<img :src="item.img" alt="">
 							</span>
-							<span class="border-r label pd-tb16 tc-primary text-center ts-16 pd-lr8">R<=10</span>
+							<span class="border-r label pd-tb16 tc-primary text-center ts-16 pd-lr8">R&lt;=10</span>
 							<span class="border-r label tc-primary text-center ts-16 pd-lr8 h-56">
 								<p class="border-b marginNo pd-b2">5000-50W</p>
 								<p class="marginNo pd-t2">50W以上</p>
@@ -69,12 +69,12 @@
 								<p class="border-b marginNo pd-b2">5000-50W</p>
 								<p class="marginNo pd-t2">50W以上</p>
 							</span>
-							<span class="border-r label pd-tb16 tc-primary text-center ts-16 pd-lr8">R<=10</span>
+							<span class="border-r label pd-tb16 tc-primary text-center ts-16 pd-lr8">R&lt;=10</span>
 							<span class="border-r label tc-primary text-center ts-16 pd-lr8 h-56">
 								<p class="border-b marginNo pd-b2">5000-50W</p>
 								<p class="marginNo pd-t2">50W以上</p>
 							</span>
-							<span class="border-r label pd-tb16 tc-primary text-center ts-16 pd-lr8">R<=10</span>
+							<span class="border-r label pd-tb16 tc-primary text-center ts-16 pd-lr8">R&lt;=10</span>
 						</li>
 					</ul>
 					<!--立即锁仓参与-->
@@ -88,11 +88,11 @@
 		<div class="plan_activity">
 			<p class="gui">活动规则</p>
 			<ul class="">
-				<li class="" v-for="(item,id) in activityList" :key="item.id">{{item.title}}</li>
+				<li class="" v-for="(item,index) in activityList" :key="index">{{item.title}}</li>
 			</ul>
 			<p class="te">特殊说明</p>
 			<ul>
-				<li v-for="(item,id) in specialList" :key="item.id">{{item.title}}</li>
+				<li v-for="(item,index) in specialList" :key="index">{{item.title}}</li>
 			</ul>
 		</div>
 	</div>
