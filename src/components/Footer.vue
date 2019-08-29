@@ -111,7 +111,10 @@
           
           <!-- 第三行 -->
           <div>
-            <span style="margin-right:15px">友情链接</span>
+            <span style="margin-right:15px">
+              <i class="icon iconfont icon-yuyutianxiayuxianxing" style=""></i>
+              友情链接
+            </span>
             <span style="margin-right:15px">LinkCoin</span>
             <span style="margin-right:15px">CoinPark</span>
             <span style="margin-right:15px">RatingToken</span>

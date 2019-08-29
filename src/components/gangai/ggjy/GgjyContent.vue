@@ -1,7 +1,7 @@
 <template>
 
     <!-- 第二大行(内部包含3个块)   --> 
-    <div style="display:flex;margin-top：10px" class="GgjyContent">
+    <div style="display:flex;margin-top:20px" class="GgjyContent">
           <!-- 左侧的块 -->
           <div style="flex-basis: 280px;border-radius: 4px;background-color: #212733;border: 1px solid #212733;">
              <!-- 左侧第一行 -->

@@ -18,6 +18,10 @@ import qs from 'qs';
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
+// 全局引入阿里巴巴图标库
+// https://www.iconfont.cn/官方链接，采取 Font class方式使用
+import './assets/fonts/iconfont/iconfont.css'
+
 /* 全局引入swipe*/
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'//这里注意具体看使用的版本是否需要引入样式，以及具体位置。
