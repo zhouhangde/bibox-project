@@ -47,9 +47,9 @@
                 </div>
               </div>
               <!-- 公告内容模块结束 -->
-            </div>  
+            </div>
             <!-- 轮播+公告结束 -->
-            
+
             <!-- 下面的买币内容 -->
             <div style="width:1200px;height:100px;background-color: #317a6c;margin-top:20px;display: flex;align-items: center;justify-content: space-between;color:#fff">
                <!-- 第一个大块 -->
@@ -70,10 +70,10 @@
                 </div>
                 <!-- 第三个块  -->
                 <div style="padding:10px;">
-                    <button style="height:100%" class="blue-button">一键购买</button>  
+                    <button style="height:100%" class="blue-button">一键购买</button>
                 </div>
               </div>
-              <!-- 第二个大块 -->  
+              <!-- 第二个大块 -->
               <div style="padding:10px;margin-right:30px">
                 <span>查看订单</span>
                 <span style="margin-left:6px">图标</span>
@@ -81,7 +81,7 @@
             </div>
             <!-- 下面的买币内容结束 -->
 
-          </div>  
+          </div>
        </div>
     </div>
     <!-- 轮播及其他的内容结束 -->
@@ -92,7 +92,7 @@
 
       <!-- 5种币的展示 -->
       <div>
-        <ul style="display: flex;justify-content: space-between;padding: 10px;"> 
+        <ul style="display: flex;justify-content: space-between;padding: 10px;">
          <li>
            <p>
              <span>图标</span>
@@ -196,7 +196,7 @@
 
     </div>
     <!-- 主体内容：除轮播等悬浮框的内容结束 -->
-    
+
 
     <!-- 币种切换tab -->
     <div style="width:1200px;margin:0 auto">
@@ -212,7 +212,7 @@
 
       <div>
         <table  cellpadding="0" cellspacing="0" class="biTable">
-          <thead style="background-color: #c3baba;"> 
+          <thead style="background-color: #c3baba;">
             <tr>
               <th>市场</th>
               <th>最新成交价</th>
@@ -244,7 +244,7 @@
      <ul style="display: flex;justify-content: space-between;">
        <li style="text-align: center;">
          <div style="padding: 10px 0;">
-           <img src="" style="width:30px;height:30px"/>
+			 <span class="security"><i class="icon iconfont icon-security-group"></i></span>
          </div>
          <p style="padding: 10px 0;">强健安全体系</p>
          <p style="padding: 1px 0;">AI 技术及微服务拆分设计应用，</p>
@@ -252,7 +252,7 @@
        </li>
        <li style="text-align: center;">
          <div style="padding: 10px 0;">
-           <img src="" style="width:30px;height:30px"/>
+			 <span class="security_two"><img src="../../src/assets/img/home/Smooth.svg" alt=""></span>
          </div>
          <p style="padding: 10px 0;">强健安全体系</p>
          <p style="padding: 1px 0;">AI 技术及微服务拆分设计应用，</p>
@@ -260,7 +260,7 @@
        </li>
        <li style="text-align: center;">
          <div style="padding: 10px 0;">
-           <img src="" style="width:30px;height:30px"/>
+			 <span class="security"><i class="icon iconfont icon-dollar-symbol-1"></i></span>
          </div>
          <p style="padding: 10px 0;">强健安全体系</p>
          <p style="padding: 1px 0;">AI 技术及微服务拆分设计应用，</p>
@@ -268,7 +268,7 @@
        </li>
        <li style="text-align: center;">
          <div style="padding: 10px 0;">
-           <img src="" style="width:30px;height:30px"/>
+			 <span class="security"><i class="icon iconfont icon-tuandui"></i></span>
          </div>
          <p style="padding: 10px 0;">强健安全体系</p>
          <p style="padding: 1px 0;">AI 技术及微服务拆分设计应用，</p>
@@ -276,7 +276,7 @@
        </li>
        <li style="text-align: center;">
          <div style="padding: 10px 0;">
-           <img src="" style="width:30px;height:30px"/>
+			 <span class="security"><i class="icon iconfont icon-huabanfuben"></i></span>
          </div>
          <p style="padding: 10px 0;">强健安全体系</p>
          <p style="padding: 1px 0;">AI 技术及微服务拆分设计应用，</p>
@@ -292,27 +292,28 @@
         <p style="text-align: center;padding: 15px 0;">Bibox 官方 App 下载</p>
 
         <div>
-          <ul style="display: flex;justify-content: center;align-items: center;padding: 15px 0;">
+          <ul style="display: flex;justify-content: center;align-items: center;padding: 15px 0;" class="iphone_box">
             <li style="display: flex;align-items: center;padding: 15px 30px;">
-              <img src="" style="width:40px;height:40px"/>
-              <span style="margin-left:15px">Iphone</span>
+              <!--<img src="" style="width:40px;height:40px"/>-->
+				<span class="box_i"> <i class="icon iconfont icon-pingguo"></i></span>
+                <span style="margin-left:15px">Iphone</span>
             </li>
             <li style="display: flex;align-items: center;padding: 15px 30px">
-              <img src="" style="width:40px;height:40px"/>
+				<span class="box_i"> <i class="icon iconfont icon-anzhuo"></i></span>
               <span style="margin-left:15px">Android</span>
             </li>
             <li style="display: flex;align-items: center;padding: 15px 30px">
-              <img src="" style="width:40px;height:40px"/>
+				<span class="box_i"> <i class="icon iconfont icon-windows"></i></span>
               <span style="margin-left:15px">windows</span>
             </li>
             <li style="display: flex;align-items: center;padding: 15px 30px">
-              <img src="" style="width:40px;height:40px"/>
+				<span class="box_i"> <i class="icon iconfont icon-pingguo"></i></span>
               <span style="margin-left:15px">Mas os</span>
             </li>
           </ul>
         </div>
-          
-          <div style="text-align:center"> 
+
+          <div style="text-align:center">
             <img src="../assets/img/footter.png" style="width:100%;"/>
           </div>
 
@@ -344,7 +345,7 @@ export default {
             name2:'10312.89',
             name3:'-0.81%',
             name4:'10440.00',
-            name5:'10270.11',     
+            name5:'10270.11',
             name6:'9825.63'
           },
           {
@@ -352,7 +353,7 @@ export default {
             name2:'10312.89',
             name3:'-0.81%',
             name4:'10440.00',
-            name5:'10270.11',     
+            name5:'10270.11',
             name6:'9825.63'
           },
           {
@@ -360,7 +361,7 @@ export default {
             name2:'10312.89',
             name3:'-0.81%',
             name4:'10440.00',
-            name5:'10270.11',     
+            name5:'10270.11',
             name6:'9825.63'
           },
           {
@@ -368,7 +369,7 @@ export default {
             name2:'10312.89',
             name3:'-0.81%',
             name4:'10440.00',
-            name5:'10270.11',     
+            name5:'10270.11',
             name6:'9825.63'
           },
           {
@@ -376,7 +377,7 @@ export default {
             name2:'10312.89',
             name3:'-0.81%',
             name4:'10440.00',
-            name5:'10270.11',     
+            name5:'10270.11',
             name6:'9825.63'
           },
           {
@@ -384,7 +385,7 @@ export default {
             name2:'10312.89',
             name3:'-0.81%',
             name4:'10440.00',
-            name5:'10270.11',     
+            name5:'10270.11',
             name6:'9825.63'
           },
           {
@@ -392,7 +393,7 @@ export default {
             name2:'10312.89',
             name3:'-0.81%',
             name4:'10440.00',
-            name5:'10270.11',     
+            name5:'10270.11',
             name6:'9825.63'
           }
         ],
@@ -402,7 +403,7 @@ export default {
             name2:'22',
             name3:'22',
             name4:'22',
-            name5:'22',     
+            name5:'22',
             name6:'22'
           }
         ],
@@ -412,7 +413,7 @@ export default {
            name2:'33',
            name3:'33',
            name4:'33',
-           name5:'33',     
+           name5:'33',
            name6:'33',
           }
         ],
@@ -422,7 +423,7 @@ export default {
            name2:'44',
            name3:'44',
            name4:'44',
-           name5:'44',     
+           name5:'44',
            name6:'44',
           }
         ],
@@ -432,7 +433,7 @@ export default {
            name2:'44',
            name3:'44',
            name4:'44',
-           name5:'44',     
+           name5:'44',
            name6:'44',
           }
         ]
@@ -465,12 +466,12 @@ export default {
       }else if(this.currentIndex == 4){
          this.currentList = this.tabList.bixData
       }
-      
+
     }
-    
+
   },
   components: {
-    
+
   }
 };
 </script>
@@ -484,7 +485,7 @@ export default {
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  
+
 }
 .zh_banner{
   background-color: #131625;
@@ -495,7 +496,7 @@ export default {
   margin:0 auto;
   position: relative;
    height: 381px;
-   
+
 }
 
 .blue-button{
@@ -536,5 +537,31 @@ export default {
 }
 .zh-footer-li p{
   padding: 3px 0;
+}
+/*下载版本图标样式*/
+.iphone_box .box_i{
+	display: inline-block;
+	border-radius: 50%;
+	width: 48px;
+	line-height: 48px;
+	height: 48px;
+	text-align: center;
+	background-color: rgba(140,157,184,.16);
+}
+.iphone_box li span i{
+	font-size: 30px;
+	color:#85d6ff;
+}
+/*安全体系图标*/
+.security{
+
+}
+.security i{
+	font-size: 48px;
+	color:#174EE6;
+}
+.security_two img{
+	width: 48px;
+	height: 48px;
 }
 </style>

@@ -4,66 +4,68 @@
     <div class="tab-router">
         <!-- 首页 -->
         <!-- active-class="is-selected"默认的路由选中样式 -->
-        <a class="tab-item" @click="currentActive = 'home';$router.push({name:'home'})" :class="currentActive == 'home'?'showRed':''">
-            <div class="tab-item-label">Bibox</div>
+        <a class="tab-logo" @click="currentActive = 'home';$router.push({name:'home'})" :class="currentActive == 'home'?'showRed':''">
+            <div class="tab-item-label" style="color:#ccc;">Bibox</div>
         </a>
 
         <!-- 图标 -->
         <a class="xiala tab-item" @click="showTb = !showTb;currentActive = 'staking|lab|dex|sbsq|bixyyjs|xykmk|xsfl'" :class="('staking|lab|dex|sbsq|bixyyjs|xykmk|xsfl'.indexOf(currentActive) != -1)?'showRed':''">
-           <div class="tab-item-label theLable">图标</div>
+           <div class="tab-item-label theLable"><span class="nine"> <i class="icon iconfont icon-nav_menu" style=""></i></span></div>
            <ul class="theUl" v-if="showTb">
              <li @click="$router.push({name:'staking'})">
-                  <img src="" width="30px" height="30px"/>
+                  <img src="../../src/assets/img/home/Staking.svg" width="30px" height="30px"/>
                   <div>
                     <p>staking</p>
                     <p>节点投币，赚取节点收益</p>
                   </div>
              </li>
              <li @click="$router.push({name:'lab'})">
-               <img src="" width="30px" height="30px"/>
+               <!--<img src="" width="30px" height="30px"/>-->
+				 <span class="lib"> <i class="icon iconfont icon-lab" style=""></i></span>
                <div>
                  <p>Lab</p>
                  <p>节点投币，赚取节点收益</p>
                </div>
              </li>
              <li @click="$router.push({name:'dex'})">
-               <img src="" width="30px" height="30px"/>
+               <img src="../../src/assets/img/home/Dex.svg" width="30px" height="30px"/>
                <div>
                  <p>Dex</p>
                  <p>节点投币，赚取节点收益</p>
                </div>
              </li>
              <li @click="$router.push({name:'sbsq'})">
-               <img src="" width="30px" height="30px"/>
+               <span> <img src="../../src/assets/img/home/Apply -Verify for BE.svg" width="30px" height="30px"/></span>
                <div>
                  <p>上币申请</p>
                  <p>节点投币，赚取节点收益</p>
                </div>
              </li>
              <li @click="$router.push({name:'bixyyjs'})">
-               <img src="" width="30px" height="30px"/>
+               <img src="../../src/assets/img/home/BIX.svg" width="30px" height="30px"/>
                <div>
                  <p>BIX应用介绍</p>
                  <p>节点投币，赚取节点收益</p>
                </div>
              </li>
              <li @click="$router.push({name:'xykmk'})">
-               <img src="" width="30px" height="30px"/>
+               <img src="../../src/assets/img/home/BE OneStepsBuy.svg" width="30px" height="30px"/>
                <div>
                  <p>信用卡一键买币</p>
                  <p>节点投币，赚取节点收益</p>
                </div>
              </li>
-             <li @click="$router.push({name:'xsfl'})">
-               <img src="" width="30px" height="30px"/>
-               <div>
-                 <p>新手福利</p>
-                 <p>节点投币，赚取节点收益</p>
-               </div>
-             </li>
+			   <!--新手福利-->
+             <!--<li @click="$router.push({name:'xsfl'})">-->
+               <!--<img src="" width="30px" height="30px"/>-->
+               <!--<div>-->
+                 <!--<p>新手福利</p>-->
+                 <!--<p>节点投币，赚取节点收益</p>-->
+               <!--</div>-->
+             <!--</li>-->
            </ul>
         </a>
-        
+
         <!-- 币币 -->
         <a class="xiala tab-item" @click="showBb = !showBb;currentActive = 'bzjy|qpjy'" :class="('bzjy|qpjy'.indexOf(currentActive) != -1)?'showRed':''">
            <div class="tab-item-label">币币</div>
@@ -74,7 +76,7 @@
              </li>
            </ul>
         </a>
-        
+
         <!-- 杠杆 -->
         <a class="xiala tab-item" @click="showGgyj = !showGgyj;currentActive = 'ggjy|jkfk'" :class="('ggjy|jkfk'.indexOf(currentActive) != -1)?'showRed':''">
           <div class="tab-item-label">杠杆</div>
@@ -112,7 +114,7 @@
             <div class="tab-item-label">恒星计划</div>
         </a>
     </div>
-    
+
     <!-- 右侧的导航 -->
     <div class="tab-right">
       <a class="tab-item" @click="currentActive = 'wtgl';$router.push({name:'wtgl'})" :class="currentActive == 'wtgl'?'showRed':''">
@@ -166,9 +168,12 @@ export default {
 
 /* 左侧的导航 */
 .tab-router{
-  display: flex;
-  align-items: center;
-  height: 54px;
+     display: flex;
+     align-items: center;
+     min-width:800px;
+	 list-style-type: none;
+	 padding: 0;
+	 margin: 0;
 }
 
 /* 每一个tab样式 */
@@ -197,7 +202,7 @@ export default {
     color: #fff;
     border-radius: 6px;
     /* 下方轮播的层级为2 */
-    z-index: 3;  
+    z-index: 3;
 }
 .theUl li{
     display: flex;
@@ -270,6 +275,29 @@ export default {
 }
 
 .showRed{
-  color: red; 
+  color: red;
 }
+/*头部图标样式*/
+.nine i{
+	font-size: 36px;
+	color: #bad2f5;
+}
+.lib i{
+	font-size: 36px;
+	color: #bad2f5;
+}
+/*头部logo图片*/
+/*.tab-logo{*/
+	/*cursor: pointer;*/
+	/*margin-top: -2px;*/
+	/*margin-right: 64px !important;*/
+/*}*/
+/*.tab-item-label{*/
+	/*background: url("../../src/assets/img/project/nav-cut.139ee1b.svg") no-repeat -110px 1px;*/
+	/*background-size: 212px;*/
+	/*width: 104px;*/
+	/*height: 32px;*/
+	/*display: block;*/
+/*}*/
+
 </style>
