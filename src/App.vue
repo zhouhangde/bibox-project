@@ -1,25 +1,35 @@
 <template>
   <div id="app">
-      <!-- keep-alive用于将全局的路由进行数据缓存 -->
-      <keep-alive>
-         <router-view/>
-     </keep-alive>
+    <!-- keep-alive用于将全局的路由进行数据缓存 -->
+    <keep-alive>
+      <router-view />
+    </keep-alive>
   </div>
 </template>
 
 <script>
 export default {
   name: "app",
-  created() {
-  },
+  created() {},
   methods: {
-    getLocation() {
-    } 
+    getLocation() {}
   }
 };
 </script>
 
 <style scoped>
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #bad1f5;
+}
 #app {
   width: 100%;
   font-size: 14px;

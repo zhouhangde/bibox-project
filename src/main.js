@@ -21,6 +21,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 // 全局引入阿里巴巴图标库
 // https://www.iconfont.cn/官方链接，采取 Font class方式使用
 import './assets/fonts/iconfont/iconfont.css'
+import './assets/fonts/font.css'
 
 /* 全局引入swipe*/
 import VueAwesomeSwiper from 'vue-awesome-swiper'
