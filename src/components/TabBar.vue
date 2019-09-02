@@ -1434,9 +1434,8 @@ export default {
 .flag-active {
   color: #3b85f5;
 }
-<<<<<<< HEAD
 </style>
-=======
+<style>
 .login-btn {
   background-color: rgba(0, 0, 0, 0.04)!important;
   border: 1px solid rgba(87,154,255,.56)!important;
@@ -1447,4 +1446,3 @@ export default {
     color: #fff!important;
 }
 </style>
->>>>>>> 96dbf06e169374940cdc398787d32da76318b942
