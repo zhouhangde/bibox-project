@@ -139,6 +139,21 @@ const router = new Router({
           path: '/wtgl',
           name: 'wtgl',
           component: () => import('./views/wtgl.vue')    
+        },
+        {
+          path: '/register',
+          name: 'register',
+          component: () => import('./views/register.vue')    
+        },
+        {
+          path: '/registerPhone',
+          name: 'registerPhone',
+          component: () => import('./views/registerPhone.vue')    
+        },
+        {
+          path: '/login',
+          name: 'login',
+          component: () => import('./views/login.vue')    
         }
       ]
     }
