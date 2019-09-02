@@ -47,6 +47,8 @@
         </a>
       </div>
       <div class="nav-right">
+        <el-button size="mini" type="primary" @click="$router.push({name: 'login'})" plain class="login-btn">登录</el-button>
+        <el-button size="mini" type="primary" @click="$router.push({name: 'register'})">注册</el-button>
         <a href="javascript:;" class="nav-author" v-if="token">委托管理</a>
         <div class="nav-asset" v-if="token">
           <a href="javascript:;">资产管理</a>
@@ -1437,5 +1439,14 @@ export default {
 
 .flag-active {
   color: #3b85f5;
+}
+.login-btn {
+  background-color: rgba(0, 0, 0, 0.04)!important;
+  border: 1px solid rgba(87,154,255,.56)!important;
+}
+.login-btn:hover {
+    background-color: #4e8be6!important;
+    border-color: #4e8be6!important;
+    color: #fff!important;
 }
 </style>
