@@ -488,7 +488,7 @@ export default {
 
 }
 .zh_banner{
-  background-color: #131625;
+  background-color: #0A1833;
 
 }
 .banner-content{

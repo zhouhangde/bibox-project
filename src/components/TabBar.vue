@@ -2,11 +2,12 @@
   <div class="header">
     <div class="header-nav">
       <div class="nav-left">
-        <a href="javascript:;" class="nav-logo">
+		  <!--logo跳转-->
+        <a href="/" class="nav-logo">
           <i></i>
         </a>
         <a href="javascript:;" class="nav-list">
-          <i class="iconfont">&#xe602;</i>
+          <i class="iconfont icon-nav_menu" style="font-size: 40px;"></i>
           <div class="list-dropdown">
             <ul>
               <li v-for="(item, index) in navList" :key="index" @click="$router.push({name: item.name})">
@@ -295,7 +296,7 @@ export default {
       navList: [
         {
           id: 1,
-          img: "",
+          img: require("../../src/assets/img/home/Staking.svg"),
           name: 'staking',
           title: "Staking",
           text: "节点投票，赚取节点收益"
@@ -309,39 +310,32 @@ export default {
         },
         {
           id: 3,
-          img: "",
+          img:require("../../src/assets/img/home/Dex.svg"),
           name: 'dex',
           title: "Dex",
           text: "节点投票，赚取节点收益"
         },
         {
           id: 4,
-          img: "",
+          img:require("../../src/assets/img/home/apply.svg"),
           name: 'sbsq',
           title: "上币申请",
           text: "节点投票，赚取节点收益"
         },
         {
           id: 5,
-          img: "",
+          img:require("../../src/assets/img/home/BIX.svg"),
           name: 'bixyyjs',
           title: "BIX应用介绍",
           text: "节点投票，赚取节点收益"
         },
         {
           id: 6,
-          img: "",
+          img: require("../../src/assets/img/home/BE OneStepsBuy.svg"),
           name: 'xykmk',
           title: "信用卡一件买币",
           text: "节点投票，赚取节点收益"
         },
-        {
-          id: 7,
-          img: "",
-          name: 'xsfl',
-          title: "新手福利",
-          text: "节点投票，赚取节点收益"
-        }
       ],
       msgList: [
         {
@@ -586,7 +580,7 @@ export default {
 <style lang="less" scope>
 .header {
   width: 100%;
-  background-color: #243052;
+  background-color: #0A1833;
   min-width: 1260px;
   padding: 0 24px;
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.08);
@@ -632,7 +626,7 @@ export default {
         }
         i {
           display: inline-block;
-          width: 32px;
+          width: 43px;
           height: 32px;
           line-height: 32px;
           text-align: center;
@@ -665,7 +659,7 @@ export default {
               img {
                 width: 40px;
                 height: 40px;
-                border: 1px solid #fff;
+                /*border: 1px solid #fff;*/
               }
               .item-count {
                 flex: 1;
@@ -1335,7 +1329,7 @@ export default {
             .lan-item {
               display: flex;
               align-items: center;
-              word-spacing: nowrap;
+              word-spacing:normal;
               text-align: left;
               color: #fff;
               padding: 8px 24px;

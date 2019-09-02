@@ -109,33 +109,33 @@
             </ul>
           </div>
            <!-- 第二行 -->
-          <div style="padding: 17px 0;">
-            <span>图标</span>
-            <span style="margin-left:6px">LinkCoin</span>
-            <span style="margin-left:14px">C2C服务由合作伙伴 LinkCoin 提供技术及服务支持</span>
-          </div>
+          <!--<div style="padding: 17px 0;">-->
+            <!--<span>图标</span>-->
+            <!--<span style="margin-left:6px">LinkCoin</span>-->
+            <!--<span style="margin-left:14px">C2C服务由合作伙伴 LinkCoin 提供技术及服务支持</span>-->
+          <!--</div>-->
 
-          <!-- 第三行 -->
-          <div>
-            <span style="margin-right:15px">
-              友情链接
-            </span>
-            <span style="margin-right:15px">LinkCoin</span>
-            <span style="margin-right:15px">CoinPark</span>
-            <span style="margin-right:15px">RatingToken</span>
-            <span style="margin-right:15px">玩币族</span>
-            <span style="margin-right:15px">BITCOIN86</span>
-            <span style="margin-right:15px">陀螺财经</span>
-            <span style="margin-right:15px">链向财经</span>
-            <span style="margin-right:15px">共享财经</span>
-            <span style="margin-right:15px">BITKAN</span>
-            <span style="margin-right:15px">Block123</span>
-            <span style="margin-right:15px">F2Pool鱼池</span>
-            <span style="margin-right:15px">Cobo钱包</span>
-            <span style="margin-right:15px">降维安全实验室</span>
-            <span style="margin-right:15px">链得得</span>
-            <span>CoinGecko</span>
-          </div>
+          <!--&lt;!&ndash; 第三行 &ndash;&gt;-->
+          <!--<div>-->
+            <!--<span style="margin-right:15px">-->
+              <!--友情链接-->
+            <!--</span>-->
+            <!--<span style="margin-right:15px">LinkCoin</span>-->
+            <!--<span style="margin-right:15px">CoinPark</span>-->
+            <!--<span style="margin-right:15px">RatingToken</span>-->
+            <!--<span style="margin-right:15px">玩币族</span>-->
+            <!--<span style="margin-right:15px">BITCOIN86</span>-->
+            <!--<span style="margin-right:15px">陀螺财经</span>-->
+            <!--<span style="margin-right:15px">链向财经</span>-->
+            <!--<span style="margin-right:15px">共享财经</span>-->
+            <!--<span style="margin-right:15px">BITKAN</span>-->
+            <!--<span style="margin-right:15px">Block123</span>-->
+            <!--<span style="margin-right:15px">F2Pool鱼池</span>-->
+            <!--<span style="margin-right:15px">Cobo钱包</span>-->
+            <!--<span style="margin-right:15px">降维安全实验室</span>-->
+            <!--<span style="margin-right:15px">链得得</span>-->
+            <!--<span>CoinGecko</span>-->
+          <!--</div>-->
 
        </div>
     </div>
