@@ -3,26 +3,22 @@
         <div class="content">
             <div class="regis-method">
                 <router-link to="/registerPhone"><span class="active">手机注册</span></router-link>
-                <router-link to="/register"><span>邮箱注册</span></router-link>
+                <router-link to="/register"><span prefix-icon="icon iconfont icon-youjian">邮箱注册</span></router-link>
             </div>
             <!-- 表单部分 -->
             <el-form :model="ruleForm" :rules="rules" ref="ruleForm" class="demo-ruleForm">
                 <el-form-item prop="phone">
-                    <!-- <i class="icon iconfont icon-youjian"></i> -->
-                    <el-input v-model="ruleForm.phone" placeholder="请输入手机号"></el-input>
+                    <el-input v-model="ruleForm.phone" placeholder="请输入手机号" prefix-icon="icon iconfont icon-shouji"></el-input>
                 </el-form-item>
-
                 <el-form-item prop="checkPhone" class="checkPhone">
                     <el-input v-model="ruleForm.checkPhone" placeholder="请输入验证码"></el-input>
                     <el-button>获取验证码</el-button>
                 </el-form-item>
                 <el-form-item prop="pass">
-                    <span class="box_i"><i class="iconfont icon-youjian"></i></span>
-                    <el-input type="password" v-model="ruleForm.pass" auto-complete="off" placeholder="请输入密码"></el-input>
+                    <el-input type="password" v-model="ruleForm.pass" auto-complete="off" placeholder="请输入密码" prefix-icon="icon iconfont icon-suo"></el-input>
                 </el-form-item>
                 <el-form-item prop="checkPass">
-                    <i class="icon iconfont icon-youjian"></i>
-                    <el-input type="password" v-model="ruleForm.checkPass" auto-complete="off" placeholder="请确认密码"></el-input>
+                    <el-input type="password" v-model="ruleForm.checkPass" auto-complete="off" placeholder="请确认密码" prefix-icon="icon iconfont icon-suo"></el-input>
                 </el-form-item>
                 <el-form-item>
                      <el-checkbox v-model="checked" class="agreement"><span>我已阅读并同意</span> <span class="agree">隐私政策</span> <span>与</span><span class="agree">用户协议</span></el-checkbox>
@@ -116,6 +112,41 @@ export default {
         // 存储数据
         getUser() {
             this.userInfo= JSON.parse(localStorage.getItem('userInfo'))
+        },
+        // 打开政策弹窗
+        openPolice() { 
+            this.$alert(
+               `<p><strong>一、双方</strong></p>
+                <p>&nbsp;</p>
+                <p>1.1 Bibox Technology Ltd.（以下称 “公司”）是一家根据爱沙尼亚相关法律在爱沙尼亚注册成立的公司，该公司运营【Bibox】（以下称“本网站”），本网站是一个专门供用户进行数字资产交易和提供相关服务（以下称“该服务”或“服务”）的平台。为了本协议表述之方便，公司和本网站在本协议中合称使用“我们”或其他第一人称称呼。</p>
+                <p>&nbsp;</p>
+                <p>1.2 1.2 只要登陆本网站的自然人或其他主体均为本网站的用户，为本协议表述之便利，以下使用“您”或其他第二人称。为了本协议表述之便利，我们和您在本协议中合称为“双方”，我们或您单称为“一方”。</p>
+                <p>&nbsp;</p>
+                <p>1.3 本网站所有内容，为便利用户，可能提供多个语言版本，若有冲突或遗漏等情况，以中文内容为准。</p>
+                <p>&nbsp;</p>`, 
+               'BIBOX隐私政策', 
+               {
+                dangerouslyUseHTMLString: true,
+                showConfirmButton: false,
+                }
+            ).catch(() => {
+                    });;
+        },
+        // 打开协议弹窗
+        openAgree() {
+           this.$alert(
+               `<p><strong>一、双方</strong></p>
+                <p>&nbsp;</p>
+                <p>1.1 Bibox Technology Ltd.（以下称 “公司”）是一家根据爱沙尼亚相关法律在爱沙尼亚注册成立的公司，该公司运营【Bibox】（以下称“本网站”），本网站是一个专门供用户进行数字资产交易和提供相关服务（以下称“该服务”或“服务”）的平台。为了本协议表述之方便，公司和本网站在本协议中合称使用“我们”或其他第一人称称呼。</p>
+                <p>&nbsp;</p>
+                <p>1.2 1.2 只要登陆本网站的自然人或其他主体均为本网站的用户，为本协议表述之便利，以下使用“您”或其他第二人称。为了本协议表述之便利，我们和您在本协议中合称为“双方”，我们或您单称为“一方”。</p>
+                <p>&nbsp;</p>
+                <p>1.3 本网站所有内容，为便利用户，可能提供多个语言版本，若有冲突或遗漏等情况，以中文内容为准。</p>
+                <p>&nbsp;</p>`, 
+               'Bibox用户协议', 
+               {dangerouslyUseHTMLString: true,showConfirmButton: false}
+            ).catch(() => {
+                    });;
         }
 
     },
