@@ -24,6 +24,11 @@
                      <el-checkbox v-model="checked" class="agreement"><span>我已阅读并同意</span> <span class="agree" @click="openPolice">隐私政策</span> <span>与</span><span class="agree" @click="openAgree">用户协议</span></el-checkbox>
                     <el-button type="primary" @click="submitForm('ruleForm')" class="register-btn" :disabled="!checked">注册</el-button>
                 </el-form-item>
+                <div class="operation">
+                  <div>已有账号?
+                    <router-link to="/login"><span class="active">登录</span></router-link>
+                  </div>
+                </div>
             </el-form>
         </div>
         <div class="login-hint-box">Bibox.com 与 LinkCoin.pro 账号已互通，您可使用任一已注册账号直接登录本站</div>
@@ -226,5 +231,14 @@ export default {
     text-align: center;
     font-size: 12px;
     color: #8a9099;
+}
+.operation {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.active {
+  color: #409eff!important;
+  font-size: 14px!important;
 }
 </style>

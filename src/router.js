@@ -140,20 +140,29 @@ const router = new Router({
           name: 'wtgl',
           component: () => import('./views/wtgl.vue')    
         },
+        // 邮箱注册
         {
           path: '/register',
           name: 'register',
           component: () => import('./views/register.vue')    
         },
+        // 手机注册
         {
           path: '/registerPhone',
           name: 'registerPhone',
           component: () => import('./views/registerPhone.vue')    
         },
+        // 登录
         {
           path: '/login',
           name: 'login',
           component: () => import('./views/login.vue')    
+        },
+        // 找回密码
+        {
+          path: '/seekPassword',
+          name: 'seekPassword',
+          component: () => import('./views/seekPassword.vue')    
         }
       ]
     }
