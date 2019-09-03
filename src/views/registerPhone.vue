@@ -21,7 +21,7 @@
                     <el-input type="password" v-model="ruleForm.checkPass" auto-complete="off" placeholder="请确认密码" prefix-icon="icon iconfont icon-suo"></el-input>
                 </el-form-item>
                 <el-form-item>
-                     <el-checkbox v-model="checked" class="agreement"><span>我已阅读并同意</span> <span class="agree">隐私政策</span> <span>与</span><span class="agree">用户协议</span></el-checkbox>
+                     <el-checkbox v-model="checked" class="agreement"><span>我已阅读并同意</span> <span class="agree" @click="openPolice">隐私政策</span> <span>与</span><span class="agree" @click="openAgree">用户协议</span></el-checkbox>
                     <el-button type="primary" @click="submitForm('ruleForm')" class="register-btn" :disabled="!checked">注册</el-button>
                 </el-form-item>
             </el-form>
