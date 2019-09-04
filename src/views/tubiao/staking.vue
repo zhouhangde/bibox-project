@@ -126,6 +126,11 @@
                                 <!--<div class="left_box"> <i class="iconfont">&#xe639;</i></div>-->
 							<!--</div>-->
 					   <!--</div>-->
+					  <!--左边箭头-->
+					  <div class="chart_s_arrow flex_box_s">
+                           <span>收益率</span>
+						    <div class="chart_s_arrow_line"><i class="iconfont">&#xe639;</i></div>
+					  </div>
 					  <!--四个盒子-->
 					  <div class="chart_one">
 						  <div class="top_line"></div>
@@ -603,6 +608,36 @@ export default {
 	padding: 0;
 	align-items: flex-end;
 	display: flex;
+}
+/*.flex_box_s{*/
+   /*list-style-type: none;*/
+	/*padding: 0;*/
+	/*margin: 0;*/
+	/*display: flex;*/
+	/*align-items: end;*/
+/*}*/
+.chart_s_arrow span{
+	font-size: 12px;
+	color:#2f363d;
+	position: relative;
+	left: -20px;
+	top:12px;
+	padding-right: 24px !important;
+}
+.chart_s_arrow_line{
+	width: 2px;
+	height: 280px;
+	background-color:#e6e6eb;
+	position: relative;
+	display: block;
+	left:30px;
+}
+.chart_s_arrow_line i{
+	display: block;
+	position: absolute;
+	top:-5px;
+	left: -6px;
+	color:#e6e6eb;
 }
 /*.chart_box_s{*/
 	/*align-items: flex-end;*/

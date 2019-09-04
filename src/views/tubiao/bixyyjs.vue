@@ -3,22 +3,26 @@
       <div class="main">
 		  <div class="bix_banner">
 			  <div class="bix_banner_bg">
-				  <div class="why">
-					  <p>什么是BIX</p>
-					   <p>BIX Token 简称 “ BIX ”, 是 Bibox 平台推⾏的基于以太坊 ERC20 的标准 Token。</p>
-					  <p>Bibox 承诺 BIX 永不增发, 且每季度拿出 25% 的净利润用来回购和销毁 BIX Token。</p>
-				  </div>
+				  <transition appear>
+					  <div class="why">
+						  <p>什么是BIX</p>
+						  <p>BIX Token 简称 “ BIX ”, 是 Bibox 平台推⾏的基于以太坊 ERC20 的标准 Token。</p>
+						  <p>Bibox 承诺 BIX 永不增发, 且每季度拿出 25% 的净利润用来回购和销毁 BIX Token。</p>
+					  </div>
+				  </transition>
+				  <transition appear>
 				  <div class="bix_banner_box">
-                       <div class="img_left">
-						   <img src="../../../src/assets/img/bix/img_left.svg" alt="">
-					   </div>
-                       <div class="img_center">
-						   <img src="../../../src/assets/img/bix/img_center.svg" alt="">
-					   </div>
-                       <div class="img_right">
-						   <img src="../../../src/assets/img/bix/img_right.svg" alt="">
-					   </div>
+						  <div class="img_left">
+							  <img src="../../../src/assets/img/bix/img_left.svg" alt="">
+						  </div>
+						  <div class="img_center">
+							  <img src="../../../src/assets/img/bix/img_center.svg" alt="">
+						  </div>
+						  <div class="img_right">
+							  <img src="../../../src/assets/img/bix/img_right.svg" alt="">
+						  </div>
 				  </div>
+				  </transition>
 			  </div>
 		  </div>
 		  <!--应用场景-->
@@ -43,18 +47,18 @@
 				   <p class="card_subtitle">随时随地，想买就买，让 BIX 支付成为主流</p>
 				   <div class="bank">
                         <div class="bank_left">
-							<p><span class="bank_title">网购</span> <span class="bank_img"></span> </p>
-							<p><span class="bank_title">餐厅</span> <span class="bank_img"></span></p>
-							<p><span class="bank_title">旅游</span> <span class="bank_img"></span> </p>
-							<p><span class="bank_title">游乐场</span> <span class="bank_img"></span></p>
+							<p><span class="bank_title">网购</span> <span class="bank_img"><img src="../../../src/assets/img/bix/bix_item_1.png" alt=""></span> </p>
+							<p><span class="bank_title">餐厅</span> <span class="bank_img"><img src="../../../src/assets/img/bix/bix_item_2.png" alt=""></span></p>
+							<p><span class="bank_title">旅游</span> <span class="bank_img"><img src="../../../src/assets/img/bix/bix_item_3.png" alt=""></span> </p>
+							<p><span class="bank_title">游乐场</span> <span class="bank_img"><img src="../../../src/assets/img/bix/bix_item_4.png" alt=""></span></p>
 						</div>
 					    <div class="bank_card"><img src="../../../src/assets/img/bix/bank.png" alt=""></div>
 					    <div class="bank_right">
-							<p><span class="bank_title">商场</span> <span></span></p>
-							<p><span class="bank_title">电影院</span> <span></span></p>
-							<p><span class="bank_title">酒店</span> <span></span></p>
-							<p> <span class="bank_title">医院</span> <span></span> </p>
-							<p> <span class="bank_title">咖啡店</span> <span></span> </p>
+							<p><span class="bank_title">商场</span> <span><img src="../../../src/assets/img/bix/bix_item_5.png" alt=""></span></p>
+							<p><span class="bank_title">电影院</span> <span><img src="../../../src/assets/img/bix/bix_item_6.png" alt=""></span></p>
+							<p><span class="bank_title">酒店</span> <span><img src="../../../src/assets/img/bix/bix_item_7.png" alt=""></span></p>
+							<p> <span class="bank_title">医院</span> <span><img src="../../../src/assets/img/bix/bix_item_8.png" alt=""></span> </p>
+							<p> <span class="bank_title">咖啡店</span> <span><img src="../../../src/assets/img/bix/bix_item_9.png" alt=""></span> </p>
 						</div>
 				   </div>
 				   <ul class="support">
@@ -68,11 +72,11 @@
 			  <p class="purchase_title">BIX购买途径</p>
 			  <p class="purchase_subtitle">BIX购买途径</p>
 			  <div class="purchase_content">
-                   <!--<div class="content_one"><span><img src="../../../src/assets/img/bix/buy_item_1.png" alt=""></span><p>Kyber Network</p></div>-->
-                   <!--<div class="content_two"><span><img src="../../../src/assets/img/bix/buy_item_2.png" alt=""></span><p>Huobi</p></div>-->
-                   <!--<div class="content_three"><span><img src="../../../src/assets/img/bix/buy_item_3.png" alt=""></span><p>Bibox</p></div>-->
-                   <!--<div class="content_true"><span><img src="../../../src/assets/img/bix/buy_item_4.png" alt=""></span><p>Dex.top</p></div>-->
-                   <!--<div class="content_five"><span><img src="../../../src/assets/img/bix/buy_item_5.png" alt=""></span><p>CoinPlace</p></div>-->
+                   <div class="content_one"><span><img src="../../../src/assets/img/bix/buy_item_1.png" alt=""></span><p>Kyber Network</p></div>
+                   <div class="content_two"><span><img src="../../../src/assets/img/bix/buy_item_2.png" alt=""></span><p>Huobi</p></div>
+                   <div class="content_three"><span><img src="../../../src/assets/img/bix/buy_item_3.png" alt=""></span><p>Bibox</p></div>
+                   <div class="content_four"><span><img src="../../../src/assets/img/bix/buy_item_4.png" alt=""></span><p>Dex.top</p></div>
+                   <div class="content_five"><span><img src="../../../src/assets/img/bix/buy_item_5.png" alt=""></span><p>CoinPlace</p></div>
 			  </div>
 		  </div>
 		  <!--销毁记录 联系我们-->
@@ -436,8 +440,45 @@ export default {
 	}
 	.purchase_content{
 		margin: 0 auto;
-		align-items: center;
+		align-items: inherit;
+		width: 1200px;
 		display: flex;
+	}
+	.purchase_content span{
+		text-align: center;
+	}
+	.purchase_content p{
+		padding-top: 6px;
+		font-weight: 700;
+		color:#18232e;
+		display: block;
+		text-align: center;
+	}
+	.content_one{
+		padding-right: 135px;
+		text-align: center;
+		padding-left: 64px !important;
+		margin-top: 64px !important;
+		display: block;
+	}
+	.content_two{
+		padding-right: 168px;
+		margin-top: 114px;
+		text-align: center;
+	}
+	.content_three{
+		padding-right: 168px;
+		text-align: center;
+		margin-top: 64px !important;
+		display: block;
+	}
+	.content_four{
+		padding-right: 168px;
+		margin-top: 114px;
+		text-align: center;
+	}
+	.content_five{
+		margin-top: 64px !important;
 	}
     .destruction{
 		width: 1200px;
@@ -557,5 +598,21 @@ export default {
 		color: #e0edff;
 		text-align: center;
 		font-weight: 500;
+	}
+	/*动画效果*/
+	.v-enter,
+	.v-leave-to{
+		opacity: 0;
+		transform: translateY(80px);
+	}
+	.v-enter-active,
+	.v-leave-active{
+		transition:all 1s;
+	}
+	.v-move{
+		transition:all 0.8s ease;
+	}
+	.v-leave-active{
+		position: absolute;
 	}
 </style>
