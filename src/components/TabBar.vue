@@ -43,9 +43,12 @@
             <a href="javascript:;" @click="$router.push({name: 'cshhr'})">城市合伙人</a>
           </div>
         </a>
-        <a href="javascript:;" class="nav-item nav-plan">
-          <a href="javascript:;" @click="$router.push({name: 'hxjh'})">恒星计划</a>
-        </a>
+        <!--<a href="javascript:;" class="nav-item nav-plan">-->
+          <!--<a href="javascript:;" @click="$router.push({name: 'hxjh'})">恒星计划</a>-->
+        <!--</a>-->
+		  <a href="javascript:;" class="nav-item nav-plan">
+			  <a href="javascript:;" @click="$router.push({name: 'xsfl'})">新手福利</a>
+		  </a>
       </div>
       <div class="nav-right">
         <el-button size="mini" type="primary" @click="$router.push({name: 'login'})" plain class="login-btn">登录</el-button>
@@ -305,7 +308,7 @@ export default {
         },
         {
           id: 2,
-          img: "",
+          img: require("../../src/assets/img/home/liber.png"),
           name: 'lab',
           title: "Lab",
           text: "节点投票，赚取节点收益"

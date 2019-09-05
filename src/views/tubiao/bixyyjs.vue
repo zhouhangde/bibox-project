@@ -13,12 +13,39 @@
 				  <transition appear>
 				  <div class="bix_banner_box">
 						  <div class="img_left">
+							  <div class="left_box">
+								  <div class="img_left_title">
+									  <p>销毁</p>
+									  <p>9,560,671 BIX</p>
+								  </div>
+								  <div class="img_left_i">
+									  <img src="../../../src/assets/img/bix/i_1.jpg" alt="">
+								  </div>
+							  </div>
 							  <img src="../../../src/assets/img/bix/img_left.svg" alt="">
 						  </div>
 						  <div class="img_center">
+							  <div class="center_box">
+								  <div class="img_center_i">
+									  <img src="../../../src/assets/img/bix/i_2.jpg" alt="">
+								  </div>
+								  <div class="img_center_title">
+									  <p>总量</p>
+									  <p>261,959,678 BIX</p>
+								  </div>
+							  </div>
 							  <img src="../../../src/assets/img/bix/img_center.svg" alt="">
 						  </div>
 						  <div class="img_right">
+							  <div class="right_box">
+								  <div class="img_center_i">
+									  <img src="../../../src/assets/img/bix/i_2.jpg" alt="">
+								  </div>
+								  <div class="img_center_title">
+									  <p>流通</p>
+									  <p>261,959,678 BIX</p>
+								  </div>
+							  </div>
 							  <img src="../../../src/assets/img/bix/img_right.svg" alt="">
 						  </div>
 				  </div>
@@ -212,16 +239,83 @@ export default {
 	   margin-left: -310px;
 	   animation-fill-mode: forwards;
    }
+   .left_box{
+	   position: absolute;
+	   left: -38%;
+	   top:30px;
+	   white-space: nowrap;
+	   display: flex;
+	   align-items: center;
+   }
+   .img_left_title{
+	   text-align: right;
+	   padding-right: 8px !important;
+	   display: block;
+   }
+   .img_left_title p:nth-child(1){
+	   font-size: 14px;
+	   font-weight: 500;
+	   color:#fff;
+	   display: block;
+	   text-align: right;
+   }
+   .img_left_title p:nth-child(2){
+	   color:#4bdba1;
+	   font-size: 20px;
+	   display: block;
+   }
+   .img_left_i{
+	   display: inline-block;
+	   position: relative;
+	   line-height: 1;
+	   width: 25px;
+	   height: 25px;
+   }
    .img_center{
 	   position: absolute;
 	   left: 50%;
 	   margin-left: -130px;
+   }
+   .img_center_i{
+	   width: 20px;
+	   height: 20px;
+	   position: relative;
+	   left: -10px;
+   }
+   .img_center_title p:nth-child(1){
+	   font-size: 14px;
+	   font-weight: 500;
+	   color:#fff;
+	   display: block;
+	   text-align: left;
+   }
+   .img_center_title p:nth-child(2){
+	   color:#66a3ff;
+	   font-size: 20px;
+	   display: block;
+	   text-align: left;
+   }
+   .center_box{
+	   position: absolute;
+	   top:-50px;
+	   left: 84%;
+	   white-space: nowrap;
+	   display: flex;
+	   align-items: center;
    }
    .img_right{
 	   position: absolute;
 	   left: 50%;
 	   padding-top: 70px;
 	   margin-left: 40px;
+   }
+   .right_box{
+	   position: absolute;
+	   top:24px;
+	   left: 86%;
+	   white-space: nowrap;
+	   display: flex;
+	   align-items: center;
    }
    .scene{
       padding-bottom: 90px;
